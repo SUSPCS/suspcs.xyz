@@ -5,3 +5,4 @@ function noHistoryHref(gamePath) {
         }
     });
 }
+document.addEventListener('contextmenu', event => event.preventDefault());
