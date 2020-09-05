@@ -9,33 +9,53 @@
 </head>
 
 <body>
-    <div class="navbar fixed">
-        <ul class="nav-list">
-            <li class="nav-item"><a class="link" href="./">SUSPCS</a></li>
-            <li class="nav-item-right"><a class="link" href="./inc/suspcs-drops.html">Drops</a></li>
-            <li class="nav-item-right link">//</li>
-            <li class="nav-item-right"><a class="link" href="./inc/suspcs-magazines.html">Magazines</a></li>
-            <li class="nav-item-right link">//</li>
-            <li class="nav-item-right"><a class="link" href="#featured">Featured</a></li>
-        </ul>
-    </div><br><br><br><br>
+    <div include="./inc/nav.html"></div>
     <div class="body">
-        <h1 class="header">About</h1>
-        <div class="header-content">
-            <h1 class="header-content-text">SUSPCS is an online marketing company set to make the web a better and
-                weirder place.
-                <br>
-                We look to make the web a better place by introducing some cool ideas and articles!</a>
-            </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <p>About</p>
+                        <h2>Suspicious is an online magazine company specializing in modern and odd subjects.</h2>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <p>Magazines</p>
+                        <h2>You can access our magazines <a class="link" href="/magazines">here</a>.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <p>Articles</p>
+                        <h2>We post articles on Apple News <a class="link" href="/news">here</a>.</h2>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <p>Drops</p>
+                        <h2>Every new magazine comes a couple new drops. Drops are available <a class="link"
+                                href="/drops">here</a>.</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br><br>
-        <h1 class="header" id="featured">Featured Item</h1>
-        <div class="header-content">
-            <h1 class="header-content-text">SUSPCS Mag Vol 1: <a class="link"
-                    href="./magazines/vol-1-bank.html">Bank</a>
-            </h1>
+        <h1 class="header">Featured</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <p>Volume One: Bank</p>
+                        <h2>Volume one, Bank, is available <a class="link" href="/magazines/vol-1/vol-1-bank">here</a>.
+                        </h2>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <div include="./inc/foot.html"></div>
     <script src="./js/index.js"></script>
 </body>
 
