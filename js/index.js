@@ -30,4 +30,4 @@ function includeHTML() {
             return;
         }
     }
-}document.addEventListener('contextmenu', event => event.preventDefault());
+}
