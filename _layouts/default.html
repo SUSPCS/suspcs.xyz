@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="/css/index.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSPCS </title>
+    <link rel="stylesheet" href="/css/index.css"> 
+</head>
+<body>
     <div include="/inc/nav.html"></div>
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
-    </main>
+    <div class="body">
+        {{ content }}
+    </div>
+    <div include="/inc/foot.html"></div>
     <script src="/js/index.js"></script>
-    </body>
+</body>
+
 </html>
