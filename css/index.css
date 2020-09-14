@@ -39,12 +39,14 @@ body {
 }
 
 .nav-item {
+    margin: 0rem 0;
     margin-right: 12px;
     display: inline;
     font-weight: bold;
 }
 
 .nav-item-right {
+    margin: 0rem 0;
     margin-left: 12px;
     display: inline;
     float: right;
